@@ -1,0 +1,22 @@
+{
+  "name": "lzw",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lzw.js",
+  "scripts": {
+    "test": "jest --roots tests --watchAll",
+    "benchmark:time": "node benchmark/time.js",
+    "benchmark:size": "node benchmark/size.js"
+  },
+  "keywords": [],
+  "author": "Ray Yam",
+  "license": "MIT",
+  "devDependencies": {
+    "benchmark": "^2.1.4",
+    "jest": "^28.1.0",
+    "lz-string": "^1.4.4"
+  },
+  "dependencies": {
+    "base64-bit": "^1.2.2"
+  }
+}
